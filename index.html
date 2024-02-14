@@ -6,14 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robles Portfolio</title>
 </head>
-<body class="body">
-    <nav class="bodyitem" id="navBar"></nav>
-    <img class="bodyitem" id="pfp" src="https://i.natgeofe.com/k/2fedc730-e8a5-4d86-896b-a32317dafc0a/hamsters-golden-cheeks.jpg?w=1084.125&h=1084.125">
-    <div class="bodyitem previousprojects">
-        <div class="projects" id="project1"></div>
-        <div class="projects" id="project2"></div>
-        <div class="projects" id="project3"></div>
-        <div class="projects" id="project4"></div>
+<body id="content">
+    
+    <!-- This part is for the navbar -->
+    <div class="bodyitem" id="navBarFlex">
+        <div class="logoContainer">
+            <img id="navLogo" src="https://cdn.pixabay.com/photo/2016/12/31/00/43/computer-1941945_960_720.png">
+        </div>
+        
+        <div id="navBarLinks">
+            <div class="navBarItem">
+                <a href="#displayphoto">
+                    Featured Photo
+                </a>
+            </div>
+            <div class="navBarItem">Previous Projects</div>
+            <div class="navBarItem">Skills & Auto Biography</div>
+            <div class="navBarItem">Footer</div>
+        </div>
+
     </div>
+
+    <!-- This part is for the display photo -->
+    <img class="bodyitem" id="displayphoto" src="https://c4.wallpaperflare.com/wallpaper/851/501/292/minimalism-programming-code-wallpaper-preview.jpg">
+   
+    <!-- This part is for the previous projects -->
+    <div class="previousProjects">
+        <div class="projects" id="project1">
+            <img src="phone_logo.png">
+        </div>
+        <div class="projects" id="project2">
+            <img src="internet_logo.png" alt="">
+        </div>
+        <div class="projects" id="project3">
+            <img src="chart_logo.png" alt="">
+        </div>
+        <div class="projects" id="project4">
+            <img src="steam_logo.png" alt="">
+        </div>
+    </div>
+
+    <!-- This part is for the skills and Biography -->
+    <div class="skills_auto">
+        <div class="skills_auto_item">
+            <li>C</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Solidity</li>
+            <li>R</li>
+        </div>
+        <div class="skills_auto_item">
+            A 2nd year student studying Computer Science at the University of the Philippines - Los Banos.
+        </div>
+    </div>
+
+    <!-- This part is for the footer -->
+    <div class="bodyitem footer">
+        <div id="footer_logo">
+            <img src="./Myself 2.jpg" id="pfp">
+        </div>
+        <div class="footer_item" id="footer_body">
+            <div id="address">Dancel's Dormitory, FO Santos, Batong Malake, Los Banos</div>
+            <div id="contact">09473217995 | elrobles1@up.edu.ph</div>
+            <div id="website">notancients.github.io</div>
+            <div id="backtotop">
+                <a href="#navBarFlex">Back to top</a>
+            </div>
+        </div>  
+    </div>
+    
 </body>
 </html>

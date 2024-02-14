@@ -1,16 +1,95 @@
-/* .bgRed {
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-} */
 
-.body {
+body {
+    background: #111111;
+    color: white;
+}
+
+#content {
     display:flex;
-    border:1px solid black;
     height: 100%;
     width: 100%;
-
+    /* background-color: #111111; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* align-content: center; */
+}
+
+.bodyitem {
+
+}
+
+#navLogo {
+    height:auto;
+    max-width: 100px;
+}
+
+
+#divLogoContainer {
+    display: flex;
+    align-items: center;
+}
+
+#navBarLinks {
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#navBarFlex {
+    padding-top: 20px;
+    width: 95vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_auto {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.skills_auto_item {
+    max-width: 50vw;
+    max-height: auto;
+}
+
+.previousProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.projects {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.footer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+    padding:10%;
+    margin: 20px;
+}
+
+#pfp {
+    size: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 /* .item {
